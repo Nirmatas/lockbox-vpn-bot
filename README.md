@@ -82,11 +82,11 @@ mkdir -p /var/www/speedtest
 dd if=/dev/zero of=/var/www/speedtest/speedtest.bin bs=1M count=10
 
 # Настроить Nginx
+
 cat > /etc/nginx/sites-available/speedtest <<EOF
 server {
     listen 8080;
     server_name ваш_ip_сервера;
-
     location /speedtest.bin {
         root /var/www/speedtest;
         add_header Cache-Control no-store;
