@@ -126,11 +126,6 @@ bash
 systemctl daemon-reload
 systemctl enable vpnbot.service
 systemctl start vpnbot.service
+
 🤝 Вклад в проект
 Если у вас есть идеи по улучшению — создавайте issue или pull request. Буду рад любой помощи!
-
-📝 Лицензия
-MIT License. Свободно используйте, модифицируйте и распространяйте.
-
-Автор: [Ваше имя или ник]
-Контакты: [Ссылка на Telegram или email]
